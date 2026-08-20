@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sprout House Privacy Policy</title>
-  <meta name="description" content="How Sprout House handles account information, plant information, photos, subscriptions, optional AI features, diagnostics, and privacy requests.">
+  <meta name="description" content="How Sprout House handles account information, plant information, photos, cloud backup, subscriptions, optional AI features, diagnostics, and privacy requests.">
   <link rel="canonical" href="https://sprouthouse.app/privacy">
   <link rel="stylesheet" href="../styles.css">
 </head>
@@ -22,37 +22,41 @@
   <main>
     <p class="eyebrow">Sprout House</p>
     <h1>Privacy Policy</h1>
-    <p class="intro">Last updated: 17 August 2026.</p>
+    <p class="intro">Last updated: 20 August 2026.</p>
 
-    <div class="notice"><strong>Privacy-minded by design.</strong> Sprout House keeps plant-care information local where practical and only sends information to remote services when a feature needs it, such as sign-in, subscriptions, Sprig, image analysis, integrity protection, or support and safety reporting.</div>
+    <div class="notice"><strong>Privacy-minded by design.</strong> Sprout House keeps information local where practical and uses remote services only when needed for account features, supported cloud backup and restore, subscriptions, Sprig and image analysis, service protection, or support and safety requests.</div>
 
     <h2>Information you create in Sprout House</h2>
-    <p>You may create plant records, nicknames, species and care information, rooms and placement details, Plant Passport information, care and watering history, tasks, diary entries, light readings, photos, and preferences. Much of this information is stored on your device. A feature may also use remote processing or account-linked storage when this is necessary to provide that feature or when the app clearly tells you that remote processing is involved.</p>
+    <p>You may create plant records, nicknames, species and care information, rooms and placement details, Plant Passport information, care and watering history, tasks, diary entries, light readings, photos, and preferences. Some information is stored locally on your device. If you use a signed-in account, supported structured account data may also be backed up or synchronized through account-scoped cloud services so it can be restored on another or freshly installed device.</p>
 
     <h2>Accounts and identifiers</h2>
     <p>If you create or use a Sprout House account, the app may process information such as your name, user identifier, authentication state, and information needed to keep your account signed in and secure. Sprout House uses Firebase services for supported authentication and may use Firebase App Check or similar integrity controls to protect backend services. Authentication providers may process information under their own terms and privacy practices.</p>
 
+    <h2>Cloud backup and restore</h2>
+    <p>For signed-in accounts, supported structured Sprout House data and eligible Sprout House-owned media may be backed up or restored through account-scoped cloud storage. Eligible media can include plant or growth photos and Room Light Map photos that belong to Sprout House records. Sprout House does not automatically upload arbitrary files from your device or your entire photo library.</p>
+    <p>Cloud backup is separate from AI image processing. Backing up a photo does not itself send that photo to an AI provider. A local reset or removal of local app data may leave account-linked cloud data available for later restore unless that cloud/account data is also deleted through the supported account-deletion or privacy-request process.</p>
+
     <h2>Photos, camera, and light features</h2>
-    <p>Sprout House requests camera or photo-library access only when you choose a photo-related action. App-owned plant photos and optional room or light-map photos may be stored on your device. Removing an app-owned photo or resetting app data does not remove an original from your device photo library.</p>
-    <p>If you explicitly start plant photo analysis or light-map analysis and confirm the relevant disclosure, Sprout House may send the selected image and limited related context to its backend for that requested analysis. Sprout House does not automatically send your entire photo library.</p>
+    <p>Sprout House requests camera or photo-library access only when you choose a photo-related action. Removing an app-owned photo or resetting app data does not remove an original from your device photo library.</p>
+    <p>If you explicitly start plant photo analysis, plant-health analysis, or Room Light Map analysis, Sprout House may send the selected image and limited related context to its backend for that requested analysis. Ordinary Sprig text chat does not automatically send Room images. Sprout House does not automatically send your entire photo library.</p>
 
     <h2>Sprig and AI-powered features</h2>
-    <p>When you choose a remote Sprig feature, Sprout House may send your question, limited conversation context, and relevant plant or room context to the Sprout House backend, which uses OpenAI to provide the requested response. Photo and light-image analysis are separate, user-triggered flows.</p>
+    <p>When you choose a remote Sprig or AI-powered feature, Sprout House may send your question, limited conversation context, and relevant plant or room context to the Sprout House backend, which uses OpenAI to provide the requested response. Photo and light-image analysis are separate, user-triggered flows.</p>
     <p>Responses API requests are configured with <code>store: false</code>. This setting concerns Responses API application-state storage; it is not a promise of zero provider retention, immediate deletion, or a statement about every provider practice.</p>
     <p>If you report a Sprig response, the report may include the reported response, the preceding user message, your selected reason, any optional comment, and limited technical metadata needed to review the report. Reports are used for safety, moderation, quality, and service-improvement purposes.</p>
 
-    <h2>Subscriptions and purchases</h2>
-    <p>Sprout House may offer auto-renewable subscriptions through Apple's App Store. Apple processes App Store payment and billing information. Sprout House does not receive your full payment-card details from Apple.</p>
-    <p>Sprout House may receive and process purchase history, product identifiers, transaction or subscription status, renewal or expiry state, and related entitlement information needed to provide paid features, restore purchases, prevent incorrect access, and support subscription changes. This information may be linked to your Sprout House user identifier when needed to provide subscription functionality.</p>
+    <h2>Subscriptions, purchases, and Sprig Refills</h2>
+    <p>Sprout House may offer auto-renewable subscriptions and optional consumable Sprig Refills through Apple's App Store. Apple processes App Store payment and billing information. Sprout House does not receive your full payment-card details from Apple.</p>
+    <p>Sprout House may receive and process product identifiers, purchase or transaction evidence, subscription status, renewal or expiry state, entitlement information, and refill-verification information needed to provide paid features, restore subscriptions, prevent duplicate or incorrect access, and support subscription changes. This information may be linked to your Sprout House user identifier where needed to provide the service.</p>
 
     <h2>Technical, diagnostic, and security information</h2>
-    <p>Remote services may process technical information needed to operate and protect the service, such as connection information, IP-derived rate-limiting state, request identifiers, integrity signals, and privacy-aware operational logs. Limited crash and performance information may also be made available through Apple or enabled service providers so we can diagnose failures, maintain reliability, and improve app functionality. Diagnostic information is not used for advertising or cross-app tracking.</p>
+    <p>Remote services may process technical information needed to operate and protect the service, such as connection information, request identifiers, integrity signals, authentication status, rate-limiting state, and privacy-aware operational logs. Limited crash and performance information may also be made available through Apple or enabled service providers so we can diagnose failures, maintain reliability, and improve app functionality. Diagnostic information is not used for advertising or cross-app tracking.</p>
 
     <h2>How we use information and service providers</h2>
-    <p>We use information to provide plant-care features, authenticate users, manage subscription entitlements, fulfill optional Sprig and image-analysis requests, review user-submitted reports, respond to support requests, and protect and improve service reliability. Depending on the feature, service providers may include Apple for App Store purchases and platform services, Firebase for supported authentication or integrity services, OpenAI for requested AI processing, and the infrastructure used to operate the Sprout House backend.</p>
+    <p>We use information to provide plant-care features, authenticate users, back up and restore supported account data, manage subscription entitlements and Sprig Refills, fulfill optional Sprig and image-analysis requests, review user-submitted reports, respond to support requests, and protect and improve service reliability. Depending on the feature, service providers may include Apple for App Store purchases and platform services, Firebase and Google Cloud infrastructure for supported authentication, app integrity, account-linked storage and backend operation, and OpenAI for requested AI processing.</p>
 
     <h2>Retention, security, and international processing</h2>
-    <p>Local information remains on your device until you delete it, remove the app-owned content, or reset app data. Account-linked, purchase, support, safety, and operational information may be retained for as long as needed to provide the service, maintain entitlements and records, respond to requests, protect the service, or meet applicable legal requirements. We use reasonable safeguards appropriate to the service, but no system can guarantee absolute security. Service providers may process information outside your country, subject to applicable protections.</p>
+    <p>Local information remains on your device until you delete it, remove the app-owned content, reset app data, or uninstall the app. Account-linked cloud data, purchase records, support or safety reports, and operational information may be retained for as long as needed to provide the service, maintain entitlements and records, respond to requests, protect the service, or meet applicable legal requirements. We use reasonable safeguards appropriate to the service, but no system can guarantee absolute security. Service providers may process information outside your country, subject to applicable protections.</p>
 
     <h2>Your choices and deletion rights</h2>
     <p>You can remove app-owned data from relevant areas of Sprout House and use available account or reset controls for supported data. Depending on applicable law, you may have rights to request access, correction, or deletion of remotely processed information. See <a href="/delete-account">Delete your Sprout House account and data</a> for the current deletion route, or contact <a href="mailto:hello@sprouthouse.app?subject=Sprout%20House%20privacy%20request">hello@sprouthouse.app</a>.</p>
@@ -61,7 +65,7 @@
     <p>Sprout House is not designed for children, and we do not knowingly collect personal information from children in a manner that would require parental consent under applicable law.</p>
 
     <h2>Changes and contact</h2>
-    <p>We may update this policy as Sprout House changes. We will post the updated version here. For privacy or data requests, email <a href="mailto:hello@sprouthouse.app?subject=Sprout%20House%20privacy%20request">hello@sprouthouse.app</a>. For general help, visit <a href="/support">Sprout House Support</a>. Please do not send passwords, payment-card details, or other unnecessary sensitive information.</p>
+    <p>We may update this policy as Sprout House changes. We will post the updated version here. For privacy or data requests, email <a href="mailto:hello@sprouthouse.app?subject=Sprout%20House%20privacy%20request">hello@sprouthouse.app</a>. For general help, visit <a href="/support">Sprout House Support</a>. Please do not send passwords, payment-card details, authentication tokens, or other unnecessary sensitive information.</p>
   </main>
   <footer>© Sprout House · <a href="/support">Support</a> · <a href="/privacy">Privacy</a> · <a href="/delete-account">Delete data</a></footer>
 </body>
